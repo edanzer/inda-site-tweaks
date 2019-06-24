@@ -1,0 +1,32 @@
+/* Override default HP5 styles */
+
+.h5p-branching-scenario-content.h5p-advanced-text {
+	background-image: url(https://tillithompson.files.wordpress.com/2015/06/cropped-istock_000055759156_large.jpg);
+    background-size: cover;
+    padding: 0 !important;
+}
+
+.h5p-branching-scenario-content.h5p-advanced-text p {
+	color: #fff;
+    font-size: 32px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.3);
+    line-height: 450px;
+}
+
+.h5p-branching-scenario .h5p-start-button, .h5p-end-button, .h5p-nav-button {
+    border-color: #b0f88f;
+    color: #4b4c60;
+    background: #b0f88f;
+}
+
+.h5p-branching-scenario .h5p-nav-button:focus,
+.h5p-branching-scenario .h5p-nav-button:active,
+.h5p-end-button:focus,
+.h5p-end-button:active, 
+.h5p-nav-button:focus,
+.h5p-nav-button:active {
+    outline: none;
+}
